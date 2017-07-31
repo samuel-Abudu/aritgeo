@@ -31,13 +31,13 @@ describe("array should return `-1` for neither geometric or arithmetic", functio
         assert(aritGeo([5,2,39,10])==-1)
     });
 });
-describe("array should return `0` for an empty array", function(){
-    it("should return `0` for an empty array", function(){
-        assert(aritGeo([])==0)
+describe("for geometric", function(){
+    it("should return `Geometric`", function(){
+        assert(aritGeo([2,4,8,16])=='Geometric')
     });
 });
 describe("for geometric", function(){
     it("should return `Geometric`", function(){
-        assert(aritGeo([2,4,8,16])=='Geometric')
+        assert(aritGeo([3,9,27])=='Geometric')
     });
 });
