@@ -41,8 +41,3 @@ describe("for geometric", function(){
         assert(aritGeo([2,4,8,16])=='Geometric')
     });
 });
-describe("for geometric", function(){
-    it("should return `Geometric`", function(){
-        assert(aritGeo([3,9,27])=='Geometric')
-    });
-});
