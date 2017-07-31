@@ -26,11 +26,7 @@ describe("it should return `Arithmetic`", function(){
     assert(aritGeo([2,4,6,8])=="Arithmetic")
     });
 })
-describe("array should return `-1` for neither geometric or arithmetic", function(){
-    it("should return `-1` for neither geometric or arithmetic", function(){
-        assert(aritGeo([5,2,39,10])==-1)
-    });
-});
+
 describe("for geometric", function(){
     it("should return `Geometric`", function(){
         assert(aritGeo([2,4,8,16])=='Geometric')
